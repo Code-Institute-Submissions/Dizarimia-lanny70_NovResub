@@ -1,0 +1,9 @@
+body {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    border: 1px solid blue;
+}
+
+#questionaire {
+    text-align: center;
+}
