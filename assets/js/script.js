@@ -1,24 +1,52 @@
-
-const questions = [
-    {
-        question: "What colour are my shoes?",
+const questions = [{
+        question: "How many times has he been married?",
         options: {
-            option1: "Blue",
-            option2: "Red",
-            option3: "Green",
-            option4: "Yellow"
+            option1: "1",
+            option2: "2",
+            option3: "3",
+
         },
-        answer: "Blue"
+        answer: "2"
     },
     {
-        question: "What colour is my hair?",
+        question: "When is Lannys birthday?",
         options: {
-            option1: "Grey",
-            option2: "Blonde",
-            option3: "Green",
-            option4: "Black"
+            option1: "July 11th",
+            option2: "July 12th",
+            option3: "July 13th",
+
         },
-        answer: "Green"
+        answer: "July 13th"
+    },
+    {
+        question: "What is Lannys favourite drink?",
+        options: {
+            option1: "Rum",
+            option2: "Whiskey",
+            option3: "Beer",
+
+        },
+        answer: "Whiskey"
+    },
+    {
+        question: "What is the name of the house Lanny designed?",
+        options: {
+            option1: "Solkullen",
+            option2: "Solbacken",
+            option3: "Solgården",
+
+        },
+        answer: "Solbacken"
+    },
+    {
+        question: "What is Lannys favourite restaurant?",
+        options: {
+            option1: "Stekhuset Löberöd",
+            option2: "Viking pizzeria Hörby",
+            option3: "Noy's Thaikök Önneköp",
+
+        },
+        answer: "Stekhuset Löberöd"
     },
 ]
 
