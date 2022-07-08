@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    background-image:;
+    background: cover, no-repeat;
+}
+
 h1,
 h2 {
     font-family: oswald, sans-serif;
@@ -65,12 +77,6 @@ h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
-}
-
-body {
-    font-family: cursive, Arial, Helvetica, sans-serif;
-    background-image: url('https://github.com/Dizarimia/lanny70/blob/main/assets/images/rikku-sama--confetti.jpg') ;
-    background: cover, no-repeat;
 }
 
 .questionaire {
