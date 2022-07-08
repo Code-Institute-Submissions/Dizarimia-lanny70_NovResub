@@ -102,8 +102,8 @@ header {
     margin-top: -100px;
     margin-left: -100px;   
     background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
-    border: 5px solid black;
-}  
+    }  
+
 /* footer */
 /* footer {
     max-height: 30px;
@@ -143,15 +143,15 @@ header {
 }
 
 #rsvp-form {
-    width:600px;
-    height:200px;
+    width: 400px;
+    height: 200px;
     position: absolute;
     top: 25%;
     left: 40%;
     margin-top: -100px;
     margin-left: -100px;   
     background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
-    padding: 20px;
+    padding: 50px;
     text-align: left;
 }
 
