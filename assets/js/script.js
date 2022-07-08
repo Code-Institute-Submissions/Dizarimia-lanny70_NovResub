@@ -55,7 +55,7 @@ const question = document.getElementById('question');
 const option1 = document.getElementById('option-1');
 const option2 = document.getElementById('option-2');
 const option3 = document.getElementById('option-3');
-const option4 = document.getElementById('option-4');
+
 
 let activeQuestionNumber = 0;
 
@@ -66,7 +66,7 @@ function main() {
     option1.innerText = questions[activeQuestionNumber].options.option1;
     option2.innerText = questions[activeQuestionNumber].options.option2;
     option3.innerText = questions[activeQuestionNumber].options.option3;
-    option4.innerText = questions[activeQuestionNumber].options.option4;
+   
 }
 
 function answer(optionId) {

@@ -1,6 +1,93 @@
+header {
+    text-align: center;
+    background-color: green;
+    border-radius: 10%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 10%;
+    color: aqua;
+}
+
+i {
+    color: rgb(17, 19, 129);
+}
+
 body {
     font-family: cursive, Arial, Helvetica, sans-serif;
     background-color: blueviolet;
+    
+}
+
+.questionaire {
+    text-align: center;
+    background-color: brown;
     border: 1px solid blue;
 }
 
+h1,
+h2 {
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #160b53;
+
+}
+
+#logo {
+    font-family: Oswald, sans-serif;
+    float: left;
+    font-size: 250%;
+    margin-left: 1px;
+    background-color: rgba(132, 239, 247, 0.4);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(53, 15, 158);
+    max-width: 50%;
+    border: 1px solid rgb(56, 140, 250);
+
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 4px;
+    max-width: 50%;
+    color: rgb(53, 15, 158);
+    float: right;
+    border: 1px solid rgb(56, 140, 250);
+    background-color: rgba(132, 239, 247, 0.4);
+
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    padding-bottom: 20px;
+
+    max-height: 50px;
+    text-align: right;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 800;
+    padding: 10px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
