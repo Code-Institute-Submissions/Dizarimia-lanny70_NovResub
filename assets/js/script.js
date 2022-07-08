@@ -48,6 +48,26 @@ const questions = [{
         },
         answer: "Stekhuset Löberöd"
     },
+    {
+        question: "What is Lannys shoe size?",
+        options: {
+            option1: "41",
+            option2: "42",
+            option3: "43",
+
+        },
+        answer: "42"
+    },
+    {
+        question: "What was Lannys name supposed to be?",
+        options: {
+            option1: "Larry",
+            option2: "Lenny",
+            option3: "Harry",
+
+        },
+        answer: "Lenny"
+    },
 ]
 
 const questionNumber = document.getElementById('question-number');
