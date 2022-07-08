@@ -26,7 +26,7 @@ const questions = [{
             option3: "Beer",
 
         },
-        answer: "Whiskey"
+        answer: "Beer"
     },
     {
         question: "What is the name of the house Lanny designed?",
@@ -42,7 +42,7 @@ const questions = [{
         question: "What is Lannys favourite restaurant?",
         options: {
             option1: "Stekhuset Löberöd",
-            option2: "Viking pizzeria Hörby",
+            option2: "Vollsjö Pizzeria",
             option3: "Noy's Thaikök Önneköp",
 
         },
