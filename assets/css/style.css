@@ -16,7 +16,7 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
     color: rgb(53, 15, 158);
-    max-width: 40%;
+    
     border: 1px solid rgb(56, 140, 250);
     text-align: center;
 
@@ -69,13 +69,14 @@ h2 {
 
 body {
     font-family: cursive, Arial, Helvetica, sans-serif;
-    background-color: blueviolet;
-    
+    background-image: url('https://github.com/Dizarimia/lanny70/blob/main/assets/images/rikku-sama--confetti.jpg') ;
+    background: cover, no-repeat;
 }
 
 .questionaire {
     text-align: center;
-    background-image: url('https://github.com/Dizarimia/lanny70/blob/main/assets/images/lanny.jpg'); 
+    background-size: cover;
+    background-color: #160b53;
     border: 1px solid blue;
     width:600px;
     height:600px;
@@ -84,6 +85,7 @@ body {
     left: 50%;
     margin-top: -100px;
     margin-left: -100px;
+    
    
 }
 
