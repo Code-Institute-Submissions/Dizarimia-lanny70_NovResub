@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color:rgb(49, 104, 177);
+    background: linear-gradient(90deg, rgb(199, 111, 240) 0%, rgb(167, 58, 161) 30%, rgb(130, 16, 175) 70%, rgb(75, 2, 82) 100%);
     max-width: 100%;
 }
 
 body {
     font-family: cursive, Arial, Helvetica, sans-serif;
     background-image: url('https://github.com/Dizarimia/lanny70/blob/main/assets/images/rikkuSamaConfetti.jpg');
-    background-size: cover;
+    background: cover;
 }
 
 h1,
@@ -26,12 +26,10 @@ h2 {
     float: left;
     font-size: 250%;
     margin-left: 1px;
-    background-color: rgba(132, 239, 247, 0.4);
+    background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
     padding-left: 10px;
     padding-right: 10px;
-    color: rgb(53, 15, 158);
-    
-    border: 1px solid rgb(56, 140, 250);
+    color: rgb(146, 8, 146);
     text-align: center;
 
 }
@@ -39,6 +37,9 @@ h2 {
 header { 
     width: 100%;
     margin-bottom: 2px;
+    position: fixed;
+    background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
+
 }
 
 /* navigation links */
@@ -47,11 +48,9 @@ header {
     font-size: 150%;
     letter-spacing: 4px;
     max-width: 50%;
-    color: rgb(53, 15, 158);
+    color: rgb(138, 8, 131);
     float: right;
-    border: 1px solid rgb(56, 140, 250);
-    background-color: rgba(132, 239, 247, 0.4);
-
+       
 }
 
 #menu,
@@ -59,6 +58,7 @@ header {
     line-height: 75px;
     margin-top: 0px;
     margin-bottom: 5px;
+    
 
 }
 
@@ -91,8 +91,6 @@ header {
 .questionaire {
     text-align: center;
     background-size: cover;
-    background-color: #160b53;
-    border: 1px solid blue;
     width:600px;
     height:600px;
     position: absolute;
@@ -100,7 +98,8 @@ header {
     left: 50%;
     margin-top: -100px;
     margin-left: -100px;   
-}
+    background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
+}  
 
 #photo {
     margin-top: 0px;
@@ -127,10 +126,17 @@ footer {
     max-width: 20%;
 }
 
-#rsvp {
-    background-color: aqua;
+#rsvp-form {
     width: 300px;
-    border: 15px solid green;
     padding: 50px;
     margin: 20px;
+    text-align: left;
+    position: fixed;
+    margin-top: 30%;
+    margin-left: 30%;
+    background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
+}
+
+#contact {
+    
 }
