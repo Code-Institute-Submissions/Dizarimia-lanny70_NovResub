@@ -103,6 +103,16 @@ header {
     margin-left: -100px;   
     background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
     }  
+  
+    .score-area {
+        position: fixed;
+        text-align: center;
+        width: 600px;
+        bottom: 45%; 
+        left: 34%;
+        
+        
+    }
 
 /* footer */
 /* footer {
