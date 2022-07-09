@@ -45,4 +45,4 @@ I used the template https://github.com/Code-Institute-Org/gitpod-full-template b
 I had help from my mentor with some of the code. 
 
 ## 8 Media: 
-The picture of my dad is taken by me. ![Homepage](https://github.com/Dizarimia/lanny70/blob/main/assets/images/home.png?) ![AttendForm](https://github.com/Dizarimia/lanny70/blob/main/assets/images/attend.png?) 
+The picture of my dad is taken by me. ![Homepage](https://github.com/Dizarimia/lanny70/blob/main/assets/images/home.jpg?) ![AttendForm](https://github.com/Dizarimia/lanny70/blob/main/assets/images/attend.png?) 
