@@ -90,8 +90,8 @@ function main() {
     option1.innerText = questions[activeQuestionNumber].options.option1;
     option2.innerText = questions[activeQuestionNumber].options.option2;
     option3.innerText = questions[activeQuestionNumber].options.option3;
-    document.getElementById["correctAnswerCount"].innerHTML = correctAnswerCount;
-    document.getElementById["totalScoreAchieved"].innerHTML = totalScoreAchieved;
+    document.getElementById("correctAnswerCount").innerHTML = correctAnswerCount;
+    document.getElementById("totalScoreAchieved").innerHTML = totalScoreAchieved;
 
 }
 
