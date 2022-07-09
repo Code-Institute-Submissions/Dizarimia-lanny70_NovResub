@@ -90,6 +90,8 @@ function main() {
     option1.innerText = questions[activeQuestionNumber].options.option1;
     option2.innerText = questions[activeQuestionNumber].options.option2;
     option3.innerText = questions[activeQuestionNumber].options.option3;
+    document.getElementById["correctAnswerCount"].innerHTML = correctAnswerCount;
+    document.getElementById["totalScoreAchieved"].innerHTML = totalScoreAchieved;
 
 }
 
@@ -97,12 +99,17 @@ function answer(optionId) {
     if (questions[activeQuestionNumber].options[`option${optionId}`] == questions[activeQuestionNumber].answer) {
         alert('Your answer is correct');
         correctAnswerCount += 1;
+        activeQuestionNumber++;
+        nextQuestion();
+
     } else {
         alert('Your answer is wrong');
         wrongAnswerCount += 1;
         totalScoreAchieved += 1;
+        activeQuestionNumber++;
+        nextQuestion();
     }
-    activeQuestionNumber++;
+    
 } 
 function nextQuestion() {
     main(); 
