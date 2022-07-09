@@ -31,7 +31,6 @@ I have tested on a few different screen sizes, but looks best on bigger screens.
 
 ## 5 Bugs: 
 The imagefiles are a bit too big.
-I couldnt get the tally counter to work, and my mentor was sick so I never got my last meeting and I didn't find anyone who could help me sadly.
 
 ## 6 Deployment: 
 The site was deployed to GitHub pages. The steps to deploy are as follows: In the GitHub repository, navigate to the Settings tab From the source section drop-down menu, select the main Branch Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
@@ -43,6 +42,7 @@ So easy, even I could do it.
 ## 7 Credits: 
 I used the template https://github.com/Code-Institute-Org/gitpod-full-template because it makes life easier. Table of content order and help with information: https://github.com/dhakal79/readme-template.
 I had help from my mentor with some of the code. 
+My cousin who always helps me when I get stuck.
 
 ## 8 Media: 
 The picture of my dad is taken by me. ![Homepage](https://github.com/Dizarimia/lanny70/blob/main/assets/images/home.jpg?) ![AttendForm](https://github.com/Dizarimia/lanny70/blob/main/assets/images/attend.png?) 
