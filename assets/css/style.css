@@ -115,15 +115,17 @@ header {
     }
 
 /* footer */
-/* footer {
-    max-height: 30px;
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     margin-top: 2px;
-} */
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: #160b53;
+} 
 
 
 /* media */
