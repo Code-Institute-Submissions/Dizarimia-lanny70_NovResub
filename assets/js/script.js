@@ -103,22 +103,7 @@ function answer(optionId) {
         totalScoreAchieved += 1;
     }
     activeQuestionNumber++;
-}
-
-
-
-/* increament score for correct answers */
-
-function increamentScore(correctAnswerCount) {
-    document.getElementById("right-answer").innerText = correctAnswerCount;
-
-}
-
-/* increament score for wrong answers */
-function increamentWrongAnswer(wrongAnswerCount) {
-    document.getElementById("wrong-answer").innerText = wrongAnswerCount;
-}
-
+} 
 function nextQuestion() {
     main(); 
     
