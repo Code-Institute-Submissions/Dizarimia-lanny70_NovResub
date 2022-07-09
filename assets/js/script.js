@@ -76,28 +76,50 @@ const option1 = document.getElementById('option-1');
 const option2 = document.getElementById('option-2');
 const option3 = document.getElementById('option-3');
 
-
+let correctAnswerCount = 0;
+let wrongAnswerCount = 0;
+let totalScoreAchieved = 0;
 let activeQuestionNumber = 0;
+let TotalQuestions = 7;
 
 function main() {
-    // Load the quiz contents for the first question here
+
+    /* Load the quiz contents for the first question here */
     questionNumber.innerText = (activeQuestionNumber + 1);
     question.innerText = questions[activeQuestionNumber].question;
     option1.innerText = questions[activeQuestionNumber].options.option1;
     option2.innerText = questions[activeQuestionNumber].options.option2;
     option3.innerText = questions[activeQuestionNumber].options.option3;
-   
+
 }
 
 function answer(optionId) {
     if (questions[activeQuestionNumber].options[`option${optionId}`] == questions[activeQuestionNumber].answer) {
         alert('Your answer is correct');
+        correctAnswerCount += 1;
     } else {
         alert('Your answer is wrong');
+        wrongAnswerCount += 1;
+        totalScoreAchieved += 1;
     }
     activeQuestionNumber++;
 }
 
+
+
+/* increament score for correct answers */
+
+function increamentScore(correctAnswerCount) {
+    document.getElementById("right-answer").innerText = correctAnswerCount;
+
+}
+
+/* increament score for wrong answers */
+function increamentWrongAnswer(wrongAnswerCount) {
+    document.getElementById("wrong-answer").innerText = wrongAnswerCount;
+}
+
 function nextQuestion() {
-    main();
+    main(); 
+    
 }
