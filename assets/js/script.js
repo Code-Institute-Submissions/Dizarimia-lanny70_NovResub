@@ -99,6 +99,7 @@ function answer(optionId) {
     if (questions[activeQuestionNumber].options[`option${optionId}`] == questions[activeQuestionNumber].answer) {
         alert('Your answer is correct');
         correctAnswerCount += 1;
+        if (activeQuestionNumber < TotalQuestions - 1)
         activeQuestionNumber++;
         nextQuestion();
 
@@ -106,6 +107,7 @@ function answer(optionId) {
         alert('Your answer is wrong');
         wrongAnswerCount += 1;
         totalScoreAchieved += 1;
+        if (activeQuestionNumber < TotalQuestions - 1)
         activeQuestionNumber++;
         nextQuestion();
     }
