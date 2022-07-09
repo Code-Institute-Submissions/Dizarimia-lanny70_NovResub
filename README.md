@@ -31,6 +31,7 @@ I have tested on a few different screen sizes, but looks best on bigger screens.
 
 ## 5 Bugs: 
 The imagefiles are a bit too big.
+I couldnt get the tally counter to work, and my mentor was sick so I never got my last meeting and I didn't find anyone who could help me sadly.
 
 ## 6 Deployment: 
 The site was deployed to GitHub pages. The steps to deploy are as follows: In the GitHub repository, navigate to the Settings tab From the source section drop-down menu, select the main Branch Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
