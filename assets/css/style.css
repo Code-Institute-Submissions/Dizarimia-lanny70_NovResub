@@ -23,6 +23,13 @@ h2 {
     color: #160b53;
 
 }
+
+nav {
+    width: 99%;
+    height: 10%;
+    position: absolute;
+}
+
 /* header */
 #logo {
     font-family: Oswald, sans-serif;
@@ -165,6 +172,8 @@ footer {
 
 /* media query */
 @media screen and (max-width: 810px) {
+
+    
     
     #rsvp-form {
         width: 400px;
@@ -191,10 +200,27 @@ footer {
         background-size: cover;
         width:600px;
         height:600px;
-        position: relative;
-        top: -15%;
-        left: 20%; 
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        right: 10px;
         background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
         }  
+
+        nav {
+            font-size: 5px;
+        }
+    
+        nav #menu {
+            float: right;
+            max-width: 45%;  
+            
+        }
+        nav #logo {
+            float: left; 
+            max-width: 48%; 
+            text-align: left;
+            
+        }
 }
 
