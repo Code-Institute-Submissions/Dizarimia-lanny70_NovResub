@@ -93,6 +93,12 @@ function main() {
     document.getElementById("correctAnswerCount").innerHTML = correctAnswerCount;
     document.getElementById("totalScoreAchieved").innerHTML = totalScoreAchieved;
 
+    // check if game is over
+    if (activeQuestionNumber === TotalQuestions){
+        alert('Congratulations on finishing the questions');
+        return;
+    }
+
 }
 
 function answer(optionId) {
