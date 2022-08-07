@@ -94,6 +94,9 @@ function main() {
     document.getElementById("totalScoreAchieved").innerHTML = totalScoreAchieved;
 
     // check if game is over
+    console.log(activeQuestionNumber);
+    console.log(TotalQuestions);
+    console.log('XXX');
     if (activeQuestionNumber === TotalQuestions){
         alert('Congratulations on finishing the questions');
         return;
