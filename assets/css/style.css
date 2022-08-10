@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;   
+    height: 100%;
 }
 
 h1,
@@ -41,10 +41,10 @@ nav {
     padding-right: 10px;
     color: #bfebff;
     text-align: center;
-
+    font-size: xx-large;
 }
 
-header { 
+header {
     width: 100%;
     margin-bottom: 2px;
     position: absolute;
@@ -60,7 +60,7 @@ header {
     max-width: 50%;
     color: #eacbfc;
     float: right;
-       
+
 }
 
 #menu,
@@ -68,7 +68,7 @@ header {
     line-height: 75px;
     margin-top: 0px;
     margin-bottom: 5px;
-    
+
 
 }
 
@@ -101,22 +101,32 @@ header {
 .questionaire {
     text-align: center;
     background-size: cover;
-    width:70%;
-    height:70%;
+    width: 70%;
+    height: 70%;
     position: absolute;
     top: 20%;
     left: 20%;
     margin-top: -100px;
-    margin-left: -100px;   
+    margin-left: -100px;
     background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
-    } 
-    
-.question:hover{
+}
+
+.question:hover {
     text-decoration: underline;
     cursor: pointer;
-    
+
 }
-  
+
+.btn {
+    padding: 10px;
+    border: solid 2px rgb(1, 33, 65);
+    width: 26%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(81, 163, 245);
+    margin-top: 1rem;
+}
+
 /* footer */
 footer {
     position: fixed;
@@ -128,7 +138,7 @@ footer {
     text-align: center;
     text-decoration: wavy;
     text-shadow: #160b53;
-} 
+}
 
 
 /* media */
@@ -164,7 +174,7 @@ footer {
     top: 25%;
     left: 40%;
     margin-top: -100px;
-    margin-left: -100px;   
+    margin-left: -100px;
     background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
     padding: 50px;
     text-align: left;
@@ -173,8 +183,8 @@ footer {
 /* media query */
 @media screen and (max-width: 810px) {
 
-    
-    
+
+
     #rsvp-form {
         width: 400px;
         height: 200px;
@@ -182,45 +192,48 @@ footer {
         top: 30%;
         left: 40%;
         margin-top: -100px;
-        margin-left: -100px;   
+        margin-left: -100px;
         background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
         padding: 50px;
         text-align: left;
     }
-    #video, #video2 {
+
+    #video,
+    #video2 {
         width: 40%;
         position: relative;
         top: 30%;
         left: 20%;
         padding: 5px;
     }
-    
+
     .questionaire {
         text-align: center;
         background-size: cover;
-        width:600px;
-        height:600px;
+        width: 600px;
+        height: 600px;
         position: absolute;
         top: 40%;
         left: 30%;
         right: 10px;
         background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
-        }  
+    }
 
-        nav {
-            font-size: 5px;
-        }
-    
-        nav #menu {
-            float: right;
-            max-width: 45%;  
-            
-        }
-        nav #logo {
-            float: left; 
-            max-width: 48%; 
-            text-align: left;
-            
-        }
+    nav {
+        font-size: 5px;
+    }
+
+    nav #menu {
+        float: right;
+        max-width: 45%;
+
+    }
+
+    nav #logo {
+        float: left;
+        max-width: 48%;
+        text-align: left;
+        font-size: small;
+    }
+
 }
-
