@@ -130,11 +130,13 @@ header {
 
 .scores1 {
     color: red;
+    padding-top: 10px;
     
 }
 
 .scores {
     color: rgb(25, 194, 25);
+    padding-bottom: 50px;
 }
 
 /* footer */
