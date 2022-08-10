@@ -101,10 +101,11 @@ if (activeQuestionNumber === TotalQuestions) return;
 if (questions[activeQuestionNumber].options[`option${optionId}`] == questions[activeQuestionNumber].answer) {
     alert('Your answer is correct');
     correctAnswerCount += 1;
-    totalScoreAchieved += 1;
+    
 } else {
     alert('Your answer is wrong');
     wrongAnswerCount += 1;
+    totalScoreAchieved += 1;
 }
 
 // Increment the question count

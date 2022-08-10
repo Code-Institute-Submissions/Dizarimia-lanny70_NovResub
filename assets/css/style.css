@@ -13,6 +13,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
+    font-size: 1.1rem;
+    color: #daf0fa;
 }
 
 h1,
@@ -20,8 +22,6 @@ h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #160b53;
-
 }
 
 nav {
@@ -125,6 +125,16 @@ header {
     margin-right: auto;
     background: rgb(81, 163, 245);
     margin-top: 1rem;
+    border-radius: 10%;
+}
+
+.scores1 {
+    color: red;
+    
+}
+
+.scores {
+    color: rgb(25, 194, 25);
 }
 
 /* footer */
@@ -137,7 +147,6 @@ footer {
     margin-top: 2px;
     text-align: center;
     text-decoration: wavy;
-    text-shadow: #160b53;
 }
 
 
