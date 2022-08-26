@@ -114,7 +114,6 @@ header {
 .question:hover {
     text-decoration: underline;
     cursor: pointer;
-
 }
 
 .btn {
@@ -131,7 +130,6 @@ header {
 .scores1 {
     color: red;
     padding-top: 10px;
-    
 }
 
 .scores {
@@ -179,18 +177,36 @@ footer {
 }
 
 #rsvp-form {
-    width: 400px;
-    height: 200px;
+    width: 30%;
+    height: 30%;
     position: absolute;
     top: 25%;
     left: 40%;
     margin-top: -100px;
-    margin-left: -100px;
+    margin-left: -150px;
     background: linear-gradient(90deg, rgb(1, 33, 65) 0%, rgb(30, 58, 182) 30%, rgb(28, 119, 180) 70%, rgb(81, 163, 245) 100%);
     padding: 50px;
     text-align: left;
     border: 1px solid black;
-    color: black;
+    color: rgb(239, 204, 247);
+    font-size: 1.5em;
+    border: 2px solid black;
+}
+
+form input {
+    font-size: inherit;
+}
+
+#rsvp-form:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+ 
+#submit {
+    border: 2px solid #daf0fa;
+    color: aqua;
+    font-size: inherit;
+    padding: 5px;
 }
 
 /* media query */
